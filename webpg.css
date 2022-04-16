@@ -23,6 +23,7 @@ header {
 }
 .intro-text > h1 {
   font-size: 10rem;
+  text-align: center;
 }
 .intro-text > p {
   font-size: 2rem;
@@ -53,4 +54,20 @@ main > img {
 
 html {
   scroll-behavior: smooth;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.nav > li:hover {
+  color: white;
+  cursor: pointer;
 }
